@@ -14,7 +14,7 @@
 
 ChatLogic::ChatLogic()
 {
-    //// STUDENT CODE
+    //// TODO: STUDENT CODE
     ////
 
     // create instance of chatbot
@@ -24,12 +24,12 @@ ChatLogic::ChatLogic()
     _chatBot->SetChatLogicHandle(this);
 
     ////
-    //// EOF STUDENT CODE
+    //// EOF TODO: STUDENT CODE
 }
 
 ChatLogic::~ChatLogic()
 {
-    //// STUDENT CODE
+    //// TODO: STUDENT CODE
     ////
 
     // delete chatbot instance
@@ -48,7 +48,7 @@ ChatLogic::~ChatLogic()
     }
 
     ////
-    //// EOF STUDENT CODE
+    //// EOF TODO: STUDENT CODE
 }
 
 template <typename T>
@@ -123,7 +123,7 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
                     // node-based processing
                     if (type->second == "NODE")
                     {
-                        //// STUDENT CODE
+                        //// TODO: STUDENT CODE
                         ////
 
                         // check if node with this ID exists already
@@ -140,13 +140,13 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
                         }
 
                         ////
-                        //// EOF STUDENT CODE
+                        //// EOF TODO: STUDENT CODE
                     }
 
                     // edge-based processing
                     if (type->second == "EDGE")
                     {
-                        //// STUDENT CODE
+                        //// TODO: STUDENT CODE
                         ////
 
                         // find tokens for incoming (parent) and outgoing (child) node
@@ -174,7 +174,7 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
                         }
 
                         ////
-                        //// EOF STUDENT CODE
+                        //// EOF TODO: STUDENT CODE
                     }
                 }
                 else
@@ -193,7 +193,7 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
         return;
     }
 
-    //// STUDENT CODE
+    //// TODO: STUDENT CODE
     ////
 
     // identify root node
@@ -220,7 +220,7 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
     rootNode->MoveChatbotHere(_chatBot);
     
     ////
-    //// EOF STUDENT CODE
+    //// EOF TODO: STUDENT CODE
 }
 
 void ChatLogic::SetPanelDialogHandle(ChatBotPanelDialog *panelDialog)

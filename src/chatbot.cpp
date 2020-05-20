@@ -42,11 +42,11 @@ ChatBot::~ChatBot()
     }
 }
 
-//// STUDENT CODE
+//// TODO: STUDENT CODE
 ////
 
 ////
-//// EOF STUDENT CODE
+//// EOF TODO: STUDENT CODE
 
 void ChatBot::ReceiveMessageFromUser(std::string message)
 {

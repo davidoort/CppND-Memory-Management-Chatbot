@@ -13,13 +13,13 @@ private:
     wxBoxSizer *_dialogSizer;
     wxBitmap _image;
 
-    //// STUDENT CODE
+    //// TODO: STUDENT CODE
     ////
 
     ChatLogic *_chatLogic;
 
     ////
-    //// EOF STUDENT CODE
+    //// EOF TODO: STUDENT CODE
 
 public:
     // constructor / destructor

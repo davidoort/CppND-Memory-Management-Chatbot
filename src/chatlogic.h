@@ -13,7 +13,7 @@ class GraphNode;
 class ChatLogic
 {
 private:
-    //// STUDENT CODE
+    //// TODO: STUDENT CODE
     ////
 
     // data handles (owned)
@@ -21,7 +21,7 @@ private:
     std::vector<GraphEdge *> _edges;
 
     ////
-    //// EOF STUDENT CODE
+    //// EOF TODO: STUDENT CODE
 
     // data handles (not owned)
     GraphNode *_currentNode;
